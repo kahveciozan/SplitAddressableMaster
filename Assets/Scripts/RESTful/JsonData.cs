@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 [Serializable]
-public class Joke
+public class JsonData
 {
     public List<Scenes> scenes;
 }
