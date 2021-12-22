@@ -9,6 +9,7 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.AddressableAssets.ResourceLocators;
 using System.Linq;
+using UnityEngine.ResourceManagement.ResourceLocations;
 
 public class MainManuManager : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class MainManuManager : MonoBehaviour
 
     private void Start()
     {
+
         StartCoroutine(RemoteDeneme());
         StartCoroutine(RemoteDeneme2());
         StartCoroutine(RemoteDeneme3());
@@ -131,8 +133,6 @@ public class MainManuManager : MonoBehaviour
         //...
 
     }
-
-
     IEnumerator RemoteDeneme2()
     {
         var catalogPath = "https://storage.googleapis.com/addressable-deneme/Android/catalog_2021.12.08.07.19.43.json";
@@ -144,12 +144,21 @@ public class MainManuManager : MonoBehaviour
 
     IEnumerator RemoteDeneme3()
     {
-        var catalogPath = "https://storage.googleapis.com/addressable-deneme/Android/ozan123.json";
+        var catalogPath = "https://storage.googleapis.com/addressable-deneme/Android/1639388453570-0.9941029056360071/Android/catalog_2021.12.09.11.35.01.json";
         //Load a catalog and automatically release the operation handle.
         AsyncOperationHandle<IResourceLocator> handle3 = Addressables.LoadContentCatalogAsync(catalogPath, true);
+
+
         yield return handle3;
     }
+
+
+
+
     #endregion
+
+
+
 
     #region Remote2
     IEnumerator DownloadRemote(string sceneName)

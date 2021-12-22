@@ -70,9 +70,9 @@ MonoBehaviour:
       - m_Id: 7ff6afd92a2f0f549b4031794270235d
         m_Value: ServerData/[BuildTarget]
       - m_Id: 8d1fdea7cfa6a0142844eda916e2dc80
-        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+        m_Value: nityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]t]
       - m_Id: e9b05a4c59ec20044baec64286083562
-        m_Value: ServerData/[BuildTarget]
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
       - m_Id: 188f72e1e0a8fc64aaccd7cca02b703e
         m_Value: https://storage.googleapis.com/addressable-deneme/[BuildTarget]
     m_ProfileEntryNames:

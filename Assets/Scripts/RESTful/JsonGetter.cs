@@ -31,10 +31,6 @@ public class JsonGetter : MonoBehaviour
 
         for (int i = 0; i<textsInfos.Count; i++)
         {
-            if (descriptions[i].Length > 30)
-            {
-                descriptions[i] = descriptions[i].Substring(0, 30);
-            }
 
             textsInfos[i].text = "Title: " + titles[i]
                                + "\nDescrip: " + descriptions[i]

@@ -1225,8 +1225,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textsInfos:
   - {fileID: 1028907348}
-  - {fileID: 782807001}
-  - {fileID: 1075252900}
   jsonURLs: []
   titles: []
   descriptions: []
